@@ -1,0 +1,43 @@
+/*
+    This CSS file contains all of the common formatting used by the three pages
+    that mage events:
+        - Events (Posts upcomign family events)
+        - WCCW - Who Can Come When? (Polls invitees on best date for upcoming event)
+        - WBW - Who's Bringing WHat (Signup sheet for bringing a dish to an event)
+
+    The goal is to make all three look similar so it's clear they are all dealing with events.
+
+    All common styles inthis file will be named with a prefix "ec-" (for "event common")
+
+*/
+
+ec-page {
+    text-align:center;
+}
+
+
+table,
+tr,
+th,
+td {
+    border: 1pt solid black;
+    padding-left:0.3em;
+}
+
+
+input[type='radio']+label {
+    display: inline-block;
+    min-width: 3.6em;
+}
+
+chkbox:checked+label {
+    font-weight: 800;
+}
+
+textarea {
+    height: 3em;
+}
+textarea.insude {
+    border:none;
+    background:white;
+}

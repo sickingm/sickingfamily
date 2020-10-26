@@ -1,0 +1,136 @@
+body {
+    margin:9px 9px 0 9px;
+    padding:0;
+    font-size:10px;
+	font-family:Arial;
+}
+	
+caption {text-align:left;}
+
+fieldset {
+	padding-left: .7em;
+	padding-right: .7em;
+	padding-bottom: 0em;
+	padding-top: .3em;
+	margin-top:0;
+ 	border: 1px solid;
+	font-weight: bold; 
+}
+legend {
+ 	margin-bottom:.2em;
+ 	margin-top:.3em;
+	font-weight: bold; 
+	padding-left: 1em; 
+	padding-right: 1em; 
+	font-size: 17px; 
+	background: #fff;
+}
+a.ops {
+	font-size: 1em;
+	text-decoration:none; 
+	color: #000000;
+}
+
+#admin_ops legend { 
+	border: 1px solid #00C; 
+}
+#admin_ops fieldset {
+ 	background:#ddddFF;
+ 	border-color: #00C;
+}
+
+#clan_ops legend { 
+	border: 1px solid #C00; 
+}
+#clan_ops fieldset {
+ 	background:#FFdddd;
+ 	border-color: #C00;
+}
+
+#family_ops legend { 
+	border: 1px solid #0A0; 
+	padding-top: 1px; 
+}
+#family_ops fieldset {
+ 	background:#ddFFdd;
+ 	border-color: #0A0;
+}
+
+h1 {
+	font-size:300%;
+	margin:0px;
+}
+
+h2 {
+	font-size:240%;
+	font-family:Arial, sans-serif; 
+	text-decoration:underline 
+}
+
+h3 {
+	text-align:left;
+	font-size:140%;
+	text-decoration:underline ;
+	margin:0;
+}
+
+input {	font-weight: bold;}
+
+td { text-align:left}
+
+th {
+	color:blue;
+	text-align:right;
+}
+
+.dimmed {
+	font-size:14px;
+	color: #AAAAAA;
+}
+
+#header {
+	height: 112px;
+	text-align:center;
+/*border: 5px solid orange;*/
+}
+
+#left-column {
+	position:relative;
+	width:240px;
+	height:200px;
+	font-weight: bold;
+	padding: 0;
+	margin: 0 0 10px 0px;
+/*
+	border:5px solid red; 
+Uncomment this to see the physical border of the navigation section.
+For debugging purposes only.
+*/	
+}
+
+#left-column p {
+    margin: 10px 0 0 0;
+}
+
+
+#main-area {	
+	margin: 0 0 0 0;
+	padding:0;
+	font-size: 12pt;
+	position:absolute;
+	top:130px;
+	left:245px;
+	width:70%;
+/*border:5px solid green;*/
+}
+
+#main-area p {
+	font-weight: bold;
+}
+
+#main-area td.left {
+	font-size: 12pt;
+	text-align:right;
+	text-decoration:none;
+	font-variant:normal; 
+}

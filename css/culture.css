@@ -1,0 +1,180 @@
+﻿/********************************************************
+  
+    GRID Section
+    
+********************************************************/
+
+/*
+    Divide the culture page into three sections like this:
+    
+    +-------+---------------+
+    |       |               |       
+    |  TOC  |    TITLE      |   
+    |       |               |   
+    |       |               |  
+    |       +---------------+     
+    |       |               |   
+    |       |               |
+    |       |   CONTENTS    |
+    |       |               |
+    |       |               |
+    |       |               |
+    |       |               |
+    |       |               |
+    |-------+---------------+
+    
+    
+    
+*/
+#click-msg {
+	padding-top:1em;
+	font-size: 2em;
+	font-style: italic;
+}
+#culture-contents {
+    grid-area: contents;
+    max-height: 1fr;
+    overflow: auto;
+}
+
+#culture-page {
+    display:grid;
+    grid-template-columns: 11em 1fr;
+    grid-template-rows: 10em 1fr;
+    grid-template-areas: 
+			"toc title"
+			"toc contents";
+    grid-column-gap: 2em;
+}
+
+
+#culture-title {
+    grid-area: title; 
+}
+
+#culture-toc {
+    grid-area: toc;
+    min-height: 10em;
+    max-height:1fr;;
+    overflow: auto;
+    text-align:left;
+}
+#culture-contents,
+#culture-page,
+#culture-title,
+#culture-toc {
+	background: transparent;
+}
+
+
+/********************************************************
+  
+    TOC section
+    
+********************************************************/
+
+.index {
+	margin: 0;
+	padding:0;
+	font-size: 1em; 
+	font-family: Arial; 
+	text-align:center; 
+	border: solid black 1px;
+}
+
+.active_author {
+	color: #0000FF;
+	font-weight:bold; 
+	font-size:1.4em;
+	padding-bottom: 4pt;
+	margin: 0;
+}
+
+.author {
+	color: #000000;
+	text-align: right; 
+	margin-bottom: 16px;
+	font-style:italic;
+	padding-bottom:0 /* was 5pt; */
+}
+
+
+.opus {
+	line-height: 0.75em;
+	margin-bottom: 0pt; 
+	padding-bottom: 0pt; 
+	text-align:left;
+}
+
+.opus-date {
+		font-variant: small-caps;
+		font-size: .75em;
+		line-height: 0.75em;
+		text-align:center;
+		color:black;
+		font-size: 8pt;
+		padding-bottom: 4pt;
+		margin-bottom: 40pt;
+}
+
+.inactive_author {
+    color: burlywood;
+	padding-bottom: 4pt;
+	margin: 0;
+}
+
+a.opus {
+	font-variant:small-caps;
+	font-weight:bold;
+}
+a:link.opus	{color:#0000FF;}
+a:visited.opus	{color: #0000AA;}
+a:hover.opus	{color: #FF0000; text-decoration:none }
+a:active.opus	{color: #006600; }
+
+
+p {
+    margin-top: 0;
+	margin-bottom: 0;
+    padding:0
+}
+
+div.poem {
+	font-weight:bold;
+    text-align: left;
+    padding-top:20px;
+}
+
+h2 {
+	font-weight:bold;
+}
+
+table{
+	border-width: 1px;
+	border-spacing: 2px;
+	border-style: outset;
+	border-color: #EEE;
+	border-collapse: separate;
+	background-color: transparent;
+}
+
+td {
+	border-width: 1px;
+	padding: 5px;
+	border-style: inset ;
+	border-color: #d8d8d8;
+	background-color: transparent;
+}
+
+.left {
+	text-align: left;
+	padding-left:1em;
+}
+
+.title {
+	color: #000000;
+    text-align: center;
+	text-decoration: underline; 
+	font-weight: bold
+}
+

@@ -1,0 +1,57 @@
+h1 {
+	text-align:center
+}
+
+td {
+	background-color: #FFFFFF
+}
+
+.drop-down {
+	background-color: transparent;
+	text-align:left; 
+	font-weight:normal;
+}
+
+table.bd-table {
+	font-family: Arial, sans-serif;
+}
+
+tr.bd-tr {
+	font-family: Arial, sans-serif;
+}
+
+td.bd-td {
+	font-family: Arial, sans-serif;
+	text-align:center;
+	font-size:0.5em;
+}
+
+td.header {
+	color: black; 
+	background-color: tan;
+	font-size: 1em; 
+	font-weight: 400; 
+	font-style: normal; 
+	text-decoration: none; 
+	font-family: Arial; 
+	text-align: left; 
+	white-space: nowrap; 
+	padding-left: 2px; 
+	padding-right: 2px;
+}
+
+table.birthday {
+	color: #800000;
+	background-color: #FFF;
+}
+
+div.ep table, 
+div.ep tr, 
+div.ep td {
+	background-color:transparent;
+}
+
+.ep-parent {
+	background-color:transparent;
+}
+

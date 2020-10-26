@@ -1,0 +1,181 @@
+[28-Jul-2020 17:33:36 US/Central] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/sickingf/public_html/sickingfamily/culture/culture_header.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 70
+[28-Jul-2020 17:33:36 US/Central] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/sickingf/public_html/sickingfamily/culture/culture_header.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 70
+[28-Jul-2020 17:33:36 US/Central] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/sickingf/public_html/sickingfamily/culture/culture_header.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 74
+[28-Jul-2020 17:33:36 US/Central] PHP Notice:  Array to string conversion in /home4/sickingf/public_html/sickingfamily/error_handler.php on line 13
+[28-Jul-2020 17:33:36 US/Central] PHP Notice:  Array to string conversion in /home4/sickingf/public_html/sickingfamily/error_handler.php on line 13
+[28-Jul-2020 17:33:36 US/Central] PHP Notice:  Array to string conversion in /home4/sickingf/public_html/sickingfamily/error_handler.php on line 13
+[28-Jul-2020 17:33:36 US/Central] PHP Fatal error:  require(): Failed opening required '../footer.php' (include_path='/home4/sickingf/public_html/sickingfamily:/home4/sickingf/public_html/creds:/home4/sickingf/public_html/common/phpmailer/:/home4/sickingf/public_html/common:/home4/sickingf/public_html/sickingfamily:.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home4/sickingf/public_html/sickingfamily/culture/culture_header.php on line 13
+[29-Jul-2020 17:42:51 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function identifier_comment() in /home4/sickingf/public_html/sickingfamily/culture/culture_main.php:2
+Stack trace:
+#0 {main}
+  thrown in /home4/sickingf/public_html/sickingfamily/culture/culture_main.php on line 2
+[31-Jul-2020 05:22:24 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function identifier_comment() in /home4/sickingf/public_html/sickingfamily/culture/div_opus_class_def.php:2
+Stack trace:
+#0 {main}
+  thrown in /home4/sickingf/public_html/sickingfamily/culture/div_opus_class_def.php on line 2
+[02-Aug-2020 05:51:42 America/Boise] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in /home4/sickingf/public_html/sickingfamily/culture/div_opus_class_defBAD.php on line 145
+[05-Aug-2020 23:18:38 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function identifier_comment() in /home4/sickingf/public_html/sickingfamily/culture/culture_main.php:2
+Stack trace:
+#0 {main}
+  thrown in /home4/sickingf/public_html/sickingfamily/culture/culture_main.php on line 2
+[06-Aug-2020 10:24:27 US/Central] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/sickingf/public_html/sickingfamily/culture/TEST.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 70
+[06-Aug-2020 10:24:27 US/Central] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/sickingf/public_html/sickingfamily/culture/TEST.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 70
+[06-Aug-2020 10:24:27 US/Central] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/sickingf/public_html/sickingfamily/culture/TEST.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 74
+[06-Aug-2020 10:24:27 US/Central] PHP Fatal error:  require(): Failed opening required '../footer.php' (include_path='/home4/sickingf/public_html/sickingfamily:/home4/sickingf/public_html/creds:/home4/sickingf/public_html/common/phpmailer/:/home4/sickingf/public_html/common:/home4/sickingf/public_html/sickingfamily:.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home4/sickingf/public_html/sickingfamily/culture/TEST.php on line 11
+[06-Aug-2020 20:58:10 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function identifier_comment() in /home4/sickingf/public_html/sickingfamily/culture/culture_toc.php:2
+Stack trace:
+#0 {main}
+  thrown in /home4/sickingf/public_html/sickingfamily/culture/culture_toc.php on line 2
+[07-Aug-2020 02:23:50 US/Central] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/sickingf/public_html/sickingfamily/culture/culture_header.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 70
+[07-Aug-2020 02:23:51 US/Central] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/sickingf/public_html/sickingfamily/culture/culture_header.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 70
+[07-Aug-2020 02:23:51 US/Central] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/sickingf/public_html/sickingfamily/culture/culture_header.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 74
+[07-Aug-2020 02:23:51 US/Central] PHP Fatal error:  require(): Failed opening required '../footer.php' (include_path='/home4/sickingf/public_html/sickingfamily:/home4/sickingf/public_html/creds:/home4/sickingf/public_html/common/phpmailer/:/home4/sickingf/public_html/common:/home4/sickingf/public_html/sickingfamily:.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home4/sickingf/public_html/sickingfamily/culture/culture_header.php on line 13
+[10-Aug-2020 09:54:39 America/Boise] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in /home4/sickingf/public_html/sickingfamily/culture/div_opus_class_defBAD.php on line 145
+[11-Aug-2020 03:36:14 America/Boise] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in /home4/sickingf/public_html/sickingfamily/culture/div_opus_class_defBAD.php on line 145
+[12-Aug-2020 07:45:00 US/Central] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/sickingf/public_html/sickingfamily/culture/culture_header.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 70
+[12-Aug-2020 07:45:00 US/Central] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/sickingf/public_html/sickingfamily/culture/culture_header.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 70
+[12-Aug-2020 07:45:00 US/Central] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/sickingf/public_html/sickingfamily/culture/culture_header.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 74
+[12-Aug-2020 07:45:00 US/Central] PHP Fatal error:  require(): Failed opening required '../footer.php' (include_path='/home4/sickingf/public_html/sickingfamily:/home4/sickingf/public_html/creds:/home4/sickingf/public_html/common/phpmailer/:/home4/sickingf/public_html/common:/home4/sickingf/public_html/sickingfamily:.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home4/sickingf/public_html/sickingfamily/culture/culture_header.php on line 13
+[12-Aug-2020 18:52:23 US/Central] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/sickingf/public_html/sickingfamily/culture/TEST.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 70
+[12-Aug-2020 18:52:23 US/Central] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/sickingf/public_html/sickingfamily/culture/TEST.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 70
+[12-Aug-2020 18:52:23 US/Central] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/sickingf/public_html/sickingfamily/culture/TEST.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 74
+[12-Aug-2020 18:52:23 US/Central] PHP Fatal error:  require(): Failed opening required '../footer.php' (include_path='/home4/sickingf/public_html/sickingfamily:/home4/sickingf/public_html/creds:/home4/sickingf/public_html/common/phpmailer/:/home4/sickingf/public_html/common:/home4/sickingf/public_html/sickingfamily:.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home4/sickingf/public_html/sickingfamily/culture/TEST.php on line 11
+[14-Aug-2020 02:08:30 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function identifier_comment() in /home4/sickingf/public_html/sickingfamily/culture/div_opus_class_def.php:2
+Stack trace:
+#0 {main}
+  thrown in /home4/sickingf/public_html/sickingfamily/culture/div_opus_class_def.php on line 2
+[14-Aug-2020 07:32:08 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function identifier_comment() in /home4/sickingf/public_html/sickingfamily/culture/culture_toc.php:2
+Stack trace:
+#0 {main}
+  thrown in /home4/sickingf/public_html/sickingfamily/culture/culture_toc.php on line 2
+[15-Aug-2020 08:09:00 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function identifier_comment() in /home4/sickingf/public_html/sickingfamily/culture/div_opus_class_def.php:2
+Stack trace:
+#0 {main}
+  thrown in /home4/sickingf/public_html/sickingfamily/culture/div_opus_class_def.php on line 2
+[16-Aug-2020 08:59:55 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function identifier_comment() in /home4/sickingf/public_html/sickingfamily/culture/culture_main.php:2
+Stack trace:
+#0 {main}
+  thrown in /home4/sickingf/public_html/sickingfamily/culture/culture_main.php on line 2
+[16-Aug-2020 11:47:43 America/Boise] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in /home4/sickingf/public_html/sickingfamily/culture/div_opus_class_defBAD.php on line 145
+[16-Aug-2020 15:47:26 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function identifier_comment() in /home4/sickingf/public_html/sickingfamily/culture/culture_toc.php:2
+Stack trace:
+#0 {main}
+  thrown in /home4/sickingf/public_html/sickingfamily/culture/culture_toc.php on line 2
+[17-Aug-2020 11:51:48 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function identifier_comment() in /home4/sickingf/public_html/sickingfamily/culture/culture_main.php:2
+Stack trace:
+#0 {main}
+  thrown in /home4/sickingf/public_html/sickingfamily/culture/culture_main.php on line 2
+[17-Aug-2020 13:41:36 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function identifier_comment() in /home4/sickingf/public_html/sickingfamily/culture/div_opus_class_def.php:2
+Stack trace:
+#0 {main}
+  thrown in /home4/sickingf/public_html/sickingfamily/culture/div_opus_class_def.php on line 2
+[18-Aug-2020 07:50:32 US/Central] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/sickingf/public_html/sickingfamily/culture/TEST.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 70
+[18-Aug-2020 07:50:32 US/Central] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/sickingf/public_html/sickingfamily/culture/TEST.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 70
+[18-Aug-2020 07:50:32 US/Central] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/sickingf/public_html/sickingfamily/culture/TEST.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 74
+[18-Aug-2020 07:50:32 US/Central] PHP Fatal error:  require(): Failed opening required '../footer.php' (include_path='/home4/sickingf/public_html/sickingfamily:/home4/sickingf/public_html/creds:/home4/sickingf/public_html/common/phpmailer/:/home4/sickingf/public_html/common:/home4/sickingf/public_html/sickingfamily:.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home4/sickingf/public_html/sickingfamily/culture/TEST.php on line 11
+[18-Aug-2020 14:42:55 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function identifier_comment() in /home4/sickingf/public_html/sickingfamily/culture/culture_main.php:2
+Stack trace:
+#0 {main}
+  thrown in /home4/sickingf/public_html/sickingfamily/culture/culture_main.php on line 2
+[18-Aug-2020 23:37:07 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function identifier_comment() in /home4/sickingf/public_html/sickingfamily/culture/culture_toc.php:2
+Stack trace:
+#0 {main}
+  thrown in /home4/sickingf/public_html/sickingfamily/culture/culture_toc.php on line 2
+[19-Aug-2020 21:46:59 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function identifier_comment() in /home4/sickingf/public_html/sickingfamily/culture/div_opus_class_def.php:2
+Stack trace:
+#0 {main}
+  thrown in /home4/sickingf/public_html/sickingfamily/culture/div_opus_class_def.php on line 2
+[20-Aug-2020 23:58:50 US/Central] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/sickingf/public_html/sickingfamily/culture/TEST.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 70
+[20-Aug-2020 23:58:50 US/Central] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/sickingf/public_html/sickingfamily/culture/TEST.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 70
+[20-Aug-2020 23:58:50 US/Central] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/sickingf/public_html/sickingfamily/culture/TEST.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 74
+[20-Aug-2020 23:58:50 US/Central] PHP Fatal error:  require(): Failed opening required '../footer.php' (include_path='/home4/sickingf/public_html/sickingfamily:/home4/sickingf/public_html/creds:/home4/sickingf/public_html/common/phpmailer/:/home4/sickingf/public_html/common:/home4/sickingf/public_html/sickingfamily:.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home4/sickingf/public_html/sickingfamily/culture/TEST.php on line 11
+[22-Aug-2020 06:36:53 US/Central] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/sickingf/public_html/sickingfamily/culture/TEST.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 70
+[22-Aug-2020 06:36:53 US/Central] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/sickingf/public_html/sickingfamily/culture/TEST.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 70
+[22-Aug-2020 06:36:53 US/Central] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/sickingf/public_html/sickingfamily/culture/TEST.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 74
+[22-Aug-2020 06:36:53 US/Central] PHP Fatal error:  require(): Failed opening required '../footer.php' (include_path='/home4/sickingf/public_html/sickingfamily:/home4/sickingf/public_html/creds:/home4/sickingf/public_html/common/phpmailer/:/home4/sickingf/public_html/common:/home4/sickingf/public_html/sickingfamily:.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home4/sickingf/public_html/sickingfamily/culture/TEST.php on line 11
+[23-Aug-2020 09:56:58 US/Central] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/sickingf/public_html/sickingfamily/culture/TEST.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 70
+[23-Aug-2020 09:56:58 US/Central] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/sickingf/public_html/sickingfamily/culture/TEST.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 70
+[23-Aug-2020 09:56:58 US/Central] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/sickingf/public_html/sickingfamily/culture/TEST.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 74
+[23-Aug-2020 09:56:58 US/Central] PHP Fatal error:  require(): Failed opening required '../footer.php' (include_path='/home4/sickingf/public_html/sickingfamily:/home4/sickingf/public_html/creds:/home4/sickingf/public_html/common/phpmailer/:/home4/sickingf/public_html/common:/home4/sickingf/public_html/sickingfamily:.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home4/sickingf/public_html/sickingfamily/culture/TEST.php on line 11
+[23-Aug-2020 19:05:43 America/Boise] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in /home4/sickingf/public_html/sickingfamily/culture/div_opus_class_defBAD.php on line 145
+[24-Aug-2020 19:28:24 US/Central] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/sickingf/public_html/sickingfamily/culture/TEST.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 70
+[24-Aug-2020 19:28:24 US/Central] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/sickingf/public_html/sickingfamily/culture/TEST.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 70
+[24-Aug-2020 19:28:24 US/Central] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/sickingf/public_html/sickingfamily/culture/TEST.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 74
+[24-Aug-2020 19:28:24 US/Central] PHP Fatal error:  require(): Failed opening required '../footer.php' (include_path='/home4/sickingf/public_html/sickingfamily:/home4/sickingf/public_html/creds:/home4/sickingf/public_html/common/phpmailer/:/home4/sickingf/public_html/common:/home4/sickingf/public_html/sickingfamily:.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home4/sickingf/public_html/sickingfamily/culture/TEST.php on line 11
+[26-Aug-2020 07:30:08 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function identifier_comment() in /home4/sickingf/public_html/sickingfamily/culture/culture_toc.php:2
+Stack trace:
+#0 {main}
+  thrown in /home4/sickingf/public_html/sickingfamily/culture/culture_toc.php on line 2
+[28-Aug-2020 16:45:10 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function identifier_comment() in /home4/sickingf/public_html/sickingfamily/culture/culture_toc.php:2
+Stack trace:
+#0 {main}
+  thrown in /home4/sickingf/public_html/sickingfamily/culture/culture_toc.php on line 2
+[28-Aug-2020 19:16:20 US/Central] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/sickingf/public_html/sickingfamily/culture/TEST.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 70
+[28-Aug-2020 19:16:20 US/Central] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/sickingf/public_html/sickingfamily/culture/TEST.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 70
+[28-Aug-2020 19:16:20 US/Central] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/sickingf/public_html/sickingfamily/culture/TEST.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 74
+[28-Aug-2020 19:16:20 US/Central] PHP Fatal error:  require(): Failed opening required '../footer.php' (include_path='/home4/sickingf/public_html/sickingfamily:/home4/sickingf/public_html/creds:/home4/sickingf/public_html/common/phpmailer/:/home4/sickingf/public_html/common:/home4/sickingf/public_html/sickingfamily:.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home4/sickingf/public_html/sickingfamily/culture/TEST.php on line 11
+[29-Aug-2020 09:01:06 America/Boise] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in /home4/sickingf/public_html/sickingfamily/culture/div_opus_class_defBAD.php on line 145
+[30-Aug-2020 03:55:39 US/Central] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/sickingf/public_html/sickingfamily/culture/culture_header.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 70
+[30-Aug-2020 03:55:39 US/Central] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/sickingf/public_html/sickingfamily/culture/culture_header.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 70
+[30-Aug-2020 03:55:39 US/Central] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/sickingf/public_html/sickingfamily/culture/culture_header.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 74
+[30-Aug-2020 03:55:39 US/Central] PHP Fatal error:  require(): Failed opening required '../footer.php' (include_path='/home4/sickingf/public_html/sickingfamily:/home4/sickingf/public_html/creds:/home4/sickingf/public_html/common/phpmailer/:/home4/sickingf/public_html/common:/home4/sickingf/public_html/sickingfamily:.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home4/sickingf/public_html/sickingfamily/culture/culture_header.php on line 13
+[02-Sep-2020 04:21:56 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function identifier_comment() in /home4/sickingf/public_html/sickingfamily/culture/culture_main.php:2
+Stack trace:
+#0 {main}
+  thrown in /home4/sickingf/public_html/sickingfamily/culture/culture_main.php on line 2
+[02-Sep-2020 07:42:27 US/Central] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/sickingf/public_html/sickingfamily/culture/culture_header.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 70
+[02-Sep-2020 07:42:27 US/Central] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/sickingf/public_html/sickingfamily/culture/culture_header.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 70
+[02-Sep-2020 07:42:27 US/Central] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/sickingf/public_html/sickingfamily/culture/culture_header.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 74
+[02-Sep-2020 07:42:27 US/Central] PHP Fatal error:  require(): Failed opening required '../footer.php' (include_path='/home4/sickingf/public_html/sickingfamily:/home4/sickingf/public_html/creds:/home4/sickingf/public_html/common/phpmailer/:/home4/sickingf/public_html/common:/home4/sickingf/public_html/sickingfamily:.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home4/sickingf/public_html/sickingfamily/culture/culture_header.php on line 13
+[03-Sep-2020 00:23:17 US/Central] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/sickingf/public_html/sickingfamily/culture/TEST.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 70
+[03-Sep-2020 00:23:17 US/Central] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/sickingf/public_html/sickingfamily/culture/TEST.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 70
+[03-Sep-2020 00:23:17 US/Central] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/sickingf/public_html/sickingfamily/culture/TEST.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 74
+[03-Sep-2020 00:23:17 US/Central] PHP Fatal error:  require(): Failed opening required '../footer.php' (include_path='/home4/sickingf/public_html/sickingfamily:/home4/sickingf/public_html/creds:/home4/sickingf/public_html/common/phpmailer/:/home4/sickingf/public_html/common:/home4/sickingf/public_html/sickingfamily:.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home4/sickingf/public_html/sickingfamily/culture/TEST.php on line 11
+[03-Sep-2020 14:31:38 US/Central] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/sickingf/public_html/sickingfamily/culture/culture_header.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 70
+[03-Sep-2020 14:31:38 US/Central] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/sickingf/public_html/sickingfamily/culture/culture_header.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 70
+[03-Sep-2020 14:31:38 US/Central] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/sickingf/public_html/sickingfamily/culture/culture_header.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 74
+[03-Sep-2020 14:31:38 US/Central] PHP Fatal error:  require(): Failed opening required '../footer.php' (include_path='/home4/sickingf/public_html/sickingfamily:/home4/sickingf/public_html/creds:/home4/sickingf/public_html/common/phpmailer/:/home4/sickingf/public_html/common:/home4/sickingf/public_html/sickingfamily:.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home4/sickingf/public_html/sickingfamily/culture/culture_header.php on line 13
+[03-Sep-2020 16:09:29 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function identifier_comment() in /home4/sickingf/public_html/sickingfamily/culture/culture_main.php:2
+Stack trace:
+#0 {main}
+  thrown in /home4/sickingf/public_html/sickingfamily/culture/culture_main.php on line 2
+[04-Sep-2020 05:02:17 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function identifier_comment() in /home4/sickingf/public_html/sickingfamily/culture/div_opus_class_def.php:2
+Stack trace:
+#0 {main}
+  thrown in /home4/sickingf/public_html/sickingfamily/culture/div_opus_class_def.php on line 2
+[04-Sep-2020 21:06:34 US/Central] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/sickingf/public_html/sickingfamily/culture/TEST.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 70
+[04-Sep-2020 21:06:34 US/Central] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/sickingf/public_html/sickingfamily/culture/TEST.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 70
+[04-Sep-2020 21:06:34 US/Central] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/sickingf/public_html/sickingfamily/culture/TEST.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 74
+[04-Sep-2020 21:06:34 US/Central] PHP Fatal error:  require(): Failed opening required '../footer.php' (include_path='/home4/sickingf/public_html/sickingfamily:/home4/sickingf/public_html/creds:/home4/sickingf/public_html/common/phpmailer/:/home4/sickingf/public_html/common:/home4/sickingf/public_html/sickingfamily:.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home4/sickingf/public_html/sickingfamily/culture/TEST.php on line 11
+[04-Sep-2020 20:38:11 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function identifier_comment() in /home4/sickingf/public_html/sickingfamily/culture/culture_main.php:2
+Stack trace:
+#0 {main}
+  thrown in /home4/sickingf/public_html/sickingfamily/culture/culture_main.php on line 2
+[05-Sep-2020 08:34:34 US/Central] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/sickingf/public_html/sickingfamily/culture/culture_header.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 70
+[05-Sep-2020 08:34:34 US/Central] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/sickingf/public_html/sickingfamily/culture/culture_header.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 70
+[05-Sep-2020 08:34:34 US/Central] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/sickingf/public_html/sickingfamily/culture/culture_header.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 74
+[05-Sep-2020 08:34:34 US/Central] PHP Fatal error:  require(): Failed opening required '../footer.php' (include_path='/home4/sickingf/public_html/sickingfamily:/home4/sickingf/public_html/creds:/home4/sickingf/public_html/common/phpmailer/:/home4/sickingf/public_html/common:/home4/sickingf/public_html/sickingfamily:.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home4/sickingf/public_html/sickingfamily/culture/culture_header.php on line 13
+[06-Sep-2020 08:22:02 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function identifier_comment() in /home4/sickingf/public_html/sickingfamily/culture/culture_toc.php:2
+Stack trace:
+#0 {main}
+  thrown in /home4/sickingf/public_html/sickingfamily/culture/culture_toc.php on line 2
+[07-Sep-2020 03:51:51 US/Central] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/sickingf/public_html/sickingfamily/culture/culture_header.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 70
+[07-Sep-2020 03:51:51 US/Central] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/sickingf/public_html/sickingfamily/culture/culture_header.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 70
+[07-Sep-2020 03:51:51 US/Central] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/sickingf/public_html/sickingfamily/culture/culture_header.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 74
+[07-Sep-2020 03:51:51 US/Central] PHP Fatal error:  require(): Failed opening required '../footer.php' (include_path='/home4/sickingf/public_html/sickingfamily:/home4/sickingf/public_html/creds:/home4/sickingf/public_html/common/phpmailer/:/home4/sickingf/public_html/common:/home4/sickingf/public_html/sickingfamily:.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home4/sickingf/public_html/sickingfamily/culture/culture_header.php on line 13
+[07-Sep-2020 20:32:54 US/Central] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/sickingf/public_html/sickingfamily/culture/culture_header.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 70
+[07-Sep-2020 20:32:54 US/Central] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/sickingf/public_html/sickingfamily/culture/culture_header.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 70
+[07-Sep-2020 20:32:54 US/Central] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/sickingf/public_html/sickingfamily/culture/culture_header.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 74
+[07-Sep-2020 20:32:54 US/Central] PHP Fatal error:  require(): Failed opening required '../footer.php' (include_path='/home4/sickingf/public_html/sickingfamily:/home4/sickingf/public_html/creds:/home4/sickingf/public_html/common/phpmailer/:/home4/sickingf/public_html/common:/home4/sickingf/public_html/sickingfamily:.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home4/sickingf/public_html/sickingfamily/culture/culture_header.php on line 13
+[08-Sep-2020 05:07:35 US/Central] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/sickingf/public_html/sickingfamily/culture/TEST.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 70
+[08-Sep-2020 05:07:35 US/Central] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/sickingf/public_html/sickingfamily/culture/TEST.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 70
+[08-Sep-2020 05:07:35 US/Central] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/sickingf/public_html/sickingfamily/culture/TEST.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 74
+[08-Sep-2020 05:07:35 US/Central] PHP Fatal error:  require(): Failed opening required '../footer.php' (include_path='/home4/sickingf/public_html/sickingfamily:/home4/sickingf/public_html/creds:/home4/sickingf/public_html/common/phpmailer/:/home4/sickingf/public_html/common:/home4/sickingf/public_html/sickingfamily:.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home4/sickingf/public_html/sickingfamily/culture/TEST.php on line 11
+[08-Sep-2020 10:17:19 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function identifier_comment() in /home4/sickingf/public_html/sickingfamily/culture/culture_main.php:2
+Stack trace:
+#0 {main}
+  thrown in /home4/sickingf/public_html/sickingfamily/culture/culture_main.php on line 2
+[08-Sep-2020 14:22:43 US/Central] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/sickingf/public_html/sickingfamily/culture/culture_header.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 70
+[08-Sep-2020 14:22:43 US/Central] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/sickingf/public_html/sickingfamily/culture/culture_header.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 70
+[08-Sep-2020 14:22:43 US/Central] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/sickingf/public_html/sickingfamily/culture/culture_header.php:1) in /home4/sickingf/public_html/sickingfamily/initialize.php on line 74
+[08-Sep-2020 14:22:43 US/Central] PHP Fatal error:  require(): Failed opening required '../footer.php' (include_path='/home4/sickingf/public_html/sickingfamily:/home4/sickingf/public_html/creds:/home4/sickingf/public_html/common/phpmailer/:/home4/sickingf/public_html/common:/home4/sickingf/public_html/sickingfamily:.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home4/sickingf/public_html/sickingfamily/culture/culture_header.php on line 13

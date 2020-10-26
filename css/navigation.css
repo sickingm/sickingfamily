@@ -1,0 +1,100 @@
+﻿a:link		{ color: #0000cb; text-decoration:none }
+a:visited	{ color: #CB0000; text-decoration:none }
+a:hover		{ color: #000; text-decoration:underline}
+a:active	{ color: #000; text-decoration:none }
+
+body {
+    background:#DAE0D2 url("../images/sickingfamily.jpg");
+    margin:0;
+    padding:0;
+    color:#000;
+}
+
+#menu {
+    background: url("../images/sickingfamily.jpg") ;
+
+    line-height:normal;
+    position:fixed;
+
+    height:24px;
+    left:50%;
+    margin-left:-420px;
+
+}
+
+@media print {
+  .noprint { display: none; }
+  #menu { display: none; }
+}
+
+#menu ul {
+	float:left;
+	position:relative;
+	margin:0px;
+	list-style:none;
+}
+
+#menu li {
+	float:left;
+	background:url("../images/menu_left.gif") no-repeat left top;
+	margin:0;
+	padding: 0 0 0 9px;
+}
+
+#menu a {
+	display:block;
+	background-position: right top; display:block;
+	background-image:url('../images/menu_right.gif'); 
+	padding-top: 0px;
+	padding-bottom: 1px;
+	padding-right: 6px;
+}
+
+#menu ul li a{
+	font-weight:bold;
+		color:#69340F;
+}
+/* 	Defines the left-hand image to use for the <li> tag when that tag value is the selected page.
+	This occurs whenever the <body> id is the same as the <li> id   
+*/ 
+	
+body#homepage #homepage-left,
+body#addressbook #addressbook-left,
+body#dbc #dbc-left,
+body#events #events-left,
+body#wccw #wccw-left,
+body#culture #culture-left,
+body#admin #admin-left,
+body#enhancements #enhancements-left,
+body#blank #blank-left {
+	background-image:url("../images/menu_left_on.gif");
+}
+
+/* 	Defines the right-hand image to use for the <li> tag when that tag value is the selected page.
+	This occurs whenever the <body> id is the same as the <li> id
+*/  
+body#homepage #homepage-right,
+body#addressbook #addressbook-right,
+body#dbc #dbc-right,
+body#events #events-right,
+body#wccw #wccw-right,
+body#culture #culture-right,
+body#admin #admin-right,
+body#enhancements #enhancements-right,
+body#blank #blank-right {
+	background-image:url("../images/menu_right_on.gif");
+	padding-bottom: .4em;
+}
+ 
+
+#homepage-right,
+#addressbook-right,
+#dbc-right,
+#events-right ,
+#wccw-right ,
+#culture-right,
+#admin-right,
+#blank-right,
+#enhancements-right {
+	color:blue;
+}	

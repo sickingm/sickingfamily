@@ -1,0 +1,42 @@
+/**************************************************
+ *  BEGIN CSS definitions for polling (YNM) pages *
+ **************************************************/
+table#poll th{
+  background-color: tan;
+  border-collapse: collapse;
+  color: black;
+  border: 1pt solid;
+}
+table#poll td{
+  border: 1pt solid #735302;
+  border-collapse: collapse;
+  background: white;
+}
+
+input.circle {
+  border: solid 1px red;
+  width: 25px;
+  height:25px;
+  padding:0px;
+  font-size:1em;
+  font-weight: bold;
+  text-align:center;
+  border-radius: 50%;  
+  cursor: pointer;
+  color: transparent;        
+  text-shadow: 0 0 0 black; 
+ }
+
+.Y {background-color: lightgreen !important;}
+.N {background-color: pink !important;}
+.M {background-color:khaki !important; font-style: italic;}
+
+div.response-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:transparent;
+}
+/******************************
+ *  END CSS for polling (YNM) *
+ ******************************/

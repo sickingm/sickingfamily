@@ -1,0 +1,234 @@
+@import "event_common.css";
+
+
+/* wccw-list styles */
+.instructions {
+     display:inline-block;
+     text-align:left;
+     border:outset white 4pt;
+     padding-left:1.5em;
+     margin-top:1em;
+}
+
+td.wccw-list-dates {
+    text-align: center;
+}
+
+p.wccw-list-description {
+    color: green;
+}
+
+.wccw-list-is-org {
+    display: run-in;
+}
+
+.wccw-list-is-not-org {
+    display: none;
+}
+
+.wccw-list-organizer {
+    color: purple;
+    font-weight: bold;
+}
+
+input,
+.wccw-list-row a {
+    cursor: pointer;
+}
+
+tr.wccw-list-row td {
+    margin-left: 10em;
+    margin-left: 10em;
+}
+
+table.wccw-list-table {
+    max-width: 9in;
+}
+
+ul ul {
+    padding-left: 1.5em;
+}
+
+textarea.wccw-new-details,
+input.wccw-new-title {
+    width: 100%;
+    font-weight: bold;
+    color: brown;
+}
+
+.wccw-new-invisible {
+    display: none;
+}
+
+.wccw-new-visible {
+    display: inline-block;
+}
+
+#wccw-new-invitee-list-table {
+    border: none;
+    width: 100%;
+}
+
+#wccw-new-invitee-list-table,
+#wccw-new-invitee-list-table * {
+    border: none;
+}
+
+.wccw-new-organizer {
+    font-weight: bold;
+    color: brown;
+}
+
+#wccw-new-selection-table {
+    border: none;
+}
+
+#wccw-new-selection-table td {
+    border: 2pt black;
+    vertical-align: top;
+    ;
+}
+
+div#wccw-new-selection-group * {
+    font-weight: normal;
+    text-align: left;
+    border: none;
+}
+
+.wccw-new-main-table,
+.wccw-new-main-table th,
+.wccw-new-main-table td {
+    background-color: rgb(255, 255, 224);
+    border: 1px inset black;
+    color: #800000;
+}
+
+.wccw-new-main-table input,
+.wccw-new-main-table textarea {
+    border: none
+}
+
+div.wccw-new-instructions {
+    text-align: left;
+    min-width: 45%;
+    max-width: 6in;
+    border: 4px;
+    border-style: double;
+    list-style-position: outside;
+    margin: 1em;
+    padding-left: 1.5em;
+}
+
+.wccw-new-instruction-highlight {
+    color: #800000;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/*  The following section are the css definitions needed for the YNM interactive responses */
+
+tr.wccw-ynm-header>th {
+    text-align: center;
+}
+
+.wccw-ynm-td,
+.wccw-ynm-td-high  {
+    text-align:right; 
+    padding:0;
+}
+
+.wccw-ynm-td-high {
+    background-color: lightgreen !important;
+    margin: auto;
+}
+
+.wccw-ynm-score, 
+.wccw-ynm-high-score {
+    font-weight: bolder;
+    font-size: 1.4em;
+}
+
+.wccw-ynm-high-score {
+    background-color: lightgreen !important;
+}
+
+/* the follopwing section formats the ynm inputs */
+
+.ilb {
+	display: inline-block;  
+	min-width:  12em;
+	margin: 2px 10px; /* top & bottom: 0;  Left & right 2 */
+	border: 1px solid black;
+	text-align:  left;
+	border-radius: .5em; 
+	color: black;
+ }
+
+.ilb.N {  /* selects items with BOTH ilb and N */   
+  text-decoration: line-through;
+ }
+
+
+input.circle {
+   border: solid 6px black;
+/*   width: 2em;
+   margin-right:0.5em;
+   height:2em;
+*/
+   width: 30px;
+   margin-right:15px;
+   height:30px;
+   padding:0px;
+   font-size:1em;
+   font-weight: bold;
+   text-align:center;
+   border-radius: 50%;  /* this turns it into a circle */
+   cursor: pointer;
+   color: transparent;     /* these two ines cause the */
+   text-shadow: 0 0 0 black; /* text insert cursor to disappear */
+ }
+
+ /**************************************************
+ *  BEGIN CSS definitions for polling (YNM) pages *
+ **************************************************/
+table#poll th{
+  background-color: tan;
+  border-collapse: collapse;
+  color: black;
+  border: 1pt solid;
+}
+table#poll td{
+  border: 1pt solid #735302;
+  border-collapse: collapse;
+  background: white;
+}
+
+input.circle {
+  border: solid 1px black;
+  width: 25px;
+  height:25px;
+  padding:0px;
+  font-size:1em;
+  font-weight: bold;
+  text-align:center;
+  border-radius: 50%;  
+  cursor: pointer;
+  color: transparent;        
+  text-shadow: 0 0 0 black; 
+  background-color: #aaaaaa;
+ }
+
+.Y {background-color: rgb(182, 250, 182) !important;}
+.N {background-color: pink !important;}
+.M {background-color:rgb(248, 248, 135) !important; font-style: italic;}
+.X {background-color:#dddddd !important;}
+
+div.response-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:transparent;
+}
+/******************************
+ *  END CSS for polling (YNM) *
+ ******************************/

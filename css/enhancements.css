@@ -1,0 +1,21 @@
+td {
+    background: white; 
+	color: black; 
+	vertical-align: top; 
+    text-align: center; 
+}
+
+.TableHeader {
+    background: #800000; 
+	color: white; 
+	font-weight:bold; 
+	vertical-align: bottom; 
+    text-align: center; 
+}
+
+.done {
+	background: #dddddd; 
+	color: black;
+}
+
+.left {text-align:left; }

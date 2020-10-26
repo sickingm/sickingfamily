@@ -1,0 +1,228 @@
+@import url(events.css);
+
+/*
+    Layout of Pictures:
+*/
+
+#homepage {
+    text-align: center;
+}
+
+#homepage-container {
+    text-align: center;
+}
+
+#homepage-div, #homepage-pix {
+    display: inline-block;
+}
+
+#homepage-table {
+    margin: 0 auto
+}
+
+#picturetop {
+    text-align: center;
+    display: inline-block;
+}
+
+#badge-container {
+    display: grid;
+    grid-template-columns: auto repeat(10, 120px) auto;
+    grid-template-rows: repeat(2, 275px);
+    grid-template-areas:
+        " . .     .    .    .    ollie jinny  .      .     .     .     . "
+        " . nancy mark matt paul regie elaine joseph clare julie laura . " ;
+} 
+
+
+div.ollie {grid-area: ollie;}
+div.jinny {grid-area: jinny;}
+div.nancy {grid-area: nancy;}
+div.mark {grid-area: mark;}
+div.matt {grid-area: matt;}
+div.paul {grid-area: paul;}
+div.regie {grid-area: regie;}
+div.elaine {grid-area: elaine;}
+div.joseph {grid-area: joseph;}
+div.clare {grid-area: clare;}
+div.julie {grid-area: julie;}
+div.laura {grid-area: laura;}
+
+.menuclear td {
+    border-style: none;
+	background: none;
+    color: #69340F;
+	font-weight: bold;
+	vertical-align: top;
+	width: 10%;
+	text-align:center; 
+	text-decoration:none;
+}
+
+.birthday-today {
+	font-size:4em;
+	color:#FF0000; 
+	margin-top:0; 
+	margin-bottom:0;
+    line-height: 100%;
+}
+ 
+.bday { 
+ text-align:center;
+ vertical-align: top;
+}
+
+.dbc {
+	font-family: "Monotype Corsiva";
+	font-size:1.5em; 
+	text-align:center;
+	background-color: transparent;
+	color:#69340F;
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+.dbcbig {font-size: 5em;}	
+
+table.dbc{
+	border:0px;
+	border-spacing: 6px;
+	border-collapse: separate;
+	white-space: nowrap;
+}
+
+table.dbc td{
+	background-color: #FFFFE0;
+	border:9px outset #FFF000; 
+	padding:5px; 
+	background-color: #FFFFE0;
+	white-space: nowrap;
+}
+
+table.dbc th {	
+	border:none; 
+	padding:0px; 
+    background-color: transparent;
+	color: darkgoldenrod;
+
+    color: green;
+}
+
+table.dbc th a:hover, table.dbc th a:visited	{
+	color:#69340F;	
+    font-size:2em; 
+}
+	
+fieldset.dbc{
+	font-family: "Monotype Corsiva";
+	text-align:center;
+	color:#69340F;
+	font-size:1.5em; 
+	background: none;
+	border:11px inset #0000FF; 
+	border-spacing: 6px;
+	border-collapse: separate;
+}
+
+fieldset.dbc td{
+	border:9px outset #FFF000; 
+	padding:5px; 
+	background: #FFFFE0;
+}
+
+legend.dbc {
+	padding:0;
+	margin:0;
+	background:none;
+}
+
+legend.dbc a {
+	font-size:2em; 
+	color:#69340F;
+	background:none;
+}
+
+legend.dbc a:hover	{
+	color: #FF0000;	
+	font-size:2em; 
+	background:none;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 16px 16px 0 rgba(0,0,0,0.4);
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+        background-color: #FFFFE0;; 
+    color: #69340F;
+}
+
+
+div img {
+    height:128px; 
+    border-radius: 5px; /* 5px rounded corners */
+    border: solid 1px black;
+}
+
+.monicker {
+		background: #FFFFE0; 
+		color: #69340F;
+		border: solid 1px black;
+		font-weight: bold;
+		vertical-align: central; 
+		line-height:100%;
+		text-align: center;
+		padding: 0px;
+		margin: 0px;
+		border-radius: 5px; /* 5px rounded corners */
+ }
+ 
+ .dbcpix {
+    margin-left:auto; 
+    margin-right:auto;
+ }
+ 
+ /* Thoughts for the day */
+ 
+ #thought {
+    font-weight: bold;
+    width: 33%;
+    vertical-align: top;
+ }
+ 
+#thought > div {
+    font-weight:normal;
+}
+  
+/* Birthday stuff */
+
+#this-month {
+    color: red;
+    font-weight: bold;
+    width:34%;
+    vertical-align: top;
+}
+
+#next-month {
+    color:blue;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+#next-month>span, #this-month>span {
+    font-weight:normal;
+    text-decoration: none;
+}
+
+h3 {
+    text-decoration: underline;
+}

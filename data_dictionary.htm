@@ -1,0 +1,699 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+
+<head>
+<link rel="icon" href="./favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+<title>Data Dictionary</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="styles/master.css">
+<style type="text/css">
+	h2           { margin-bottom: 0 }
+	td,th {background:white}
+</style>
+</head>
+
+<body>
+
+<div id="TooltipContainer" onmouseover="holdTooltip();" onmouseout="swapTooltip('default');">
+</div>
+<div id="serverinfo">
+	<h1>sickingf_family</h1>
+</div>
+<div>
+	<h2>clans</h2>
+	<table border="1">
+		<tr>
+			<th width="50">Field</th>
+			<th width="80">Type</th>
+			<th width="40">Null</th>
+			<th width="70">Default</th>
+		</tr>
+		<tr class="odd">
+			<td><u>clan_id</u> </td>
+			<td xml:lang="en" dir="ltr">bigint(20)</td>
+			<td>No</td>
+			<td></td>
+		</tr>
+		<tr class="even">
+			<td>clan_name </td>
+			<td xml:lang="en" dir="ltr">varchar(32)</td>
+			<td>No</td>
+			<td></td>
+		</tr>
+	</table>
+</div>
+<div style="page-break-before: always;">
+	<h2>deep_thoughts</h2>
+	<table border="1">
+		<tr>
+			<th width="50">Field</th>
+			<th width="80">Type</th>
+			<th width="40">Null</th>
+			<th width="70">Default</th>
+			<th>Comments</th>
+		</tr>
+		<tr class="odd">
+			<td><u>meeting_number</u> </td>
+			<td xml:lang="en" dir="ltr">varchar(8)</td>
+			<td>No</td>
+			<td>0</td>
+			<td></td>
+		</tr>
+		<tr class="even">
+			<td>meeting_date </td>
+			<td xml:lang="en" dir="ltr">date</td>
+			<td>Yes</td>
+			<td><i>NULL</i></td>
+			<td></td>
+		</tr>
+		<tr class="odd">
+			<td>thought </td>
+			<td xml:lang="en" dir="ltr">text</td>
+			<td>Yes</td>
+			<td><i>NULL</i></td>
+			<td></td>
+		</tr>
+		<tr class="even">
+			<td>dummy_PWD </td>
+			<td xml:lang="en" dir="ltr">varchar(41)</td>
+			<td>Yes</td>
+			<td><i>NULL</i></td>
+			<td></td>
+		</tr>
+	</table>
+</div>
+<div style="page-break-before: always;">
+	<h2>emails</h2>
+	<table border="1">
+		<tr>
+			<th width="50">Field</th>
+			<th width="80">Type</th>
+			<th width="40">Null</th>
+			<th width="70">Default</th>
+			<th>Comments</th>
+		</tr>
+		<tr class="odd">
+			<td><u>email_id</u> </td>
+			<td xml:lang="en" dir="ltr">bigint(20)</td>
+			<td>No</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr class="even">
+			<td>member_ptr </td>
+			<td xml:lang="en" dir="ltr">bigint(20)</td>
+			<td>No</td>
+			<td>0</td>
+			<td></td>
+		</tr>
+		<tr class="odd">
+			<td>email </td>
+			<td xml:lang="en" dir="ltr">varchar(30)</td>
+			<td>No</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr class="even">
+			<td>email_type </td>
+			<td xml:lang="en" dir="ltr">varchar(6)</td>
+			<td>No</td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+</div>
+<div style="page-break-before: always;">
+	<h2>events</h2>
+	<table border="1">
+		<tr>
+			<th width="50">Field</th>
+			<th width="80">Type</th>
+			<th width="40">Null</th>
+			<th width="70">Default</th>
+			<th>Comments</th>
+		</tr>
+		<tr class="odd">
+			<td><u>event_id</u> </td>
+			<td xml:lang="en" dir="ltr">bigint(20)</td>
+			<td>No</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr class="even">
+			<td>date </td>
+			<td xml:lang="en" dir="ltr">date</td>
+			<td>No</td>
+			<td>0000-00-00</td>
+			<td></td>
+		</tr>
+		<tr class="odd">
+			<td>time </td>
+			<td xml:lang="en" dir="ltr">time</td>
+			<td>No</td>
+			<td>00:00:00</td>
+			<td></td>
+		</tr>
+		<tr class="even">
+			<td>event </td>
+			<td xml:lang="en" dir="ltr">text</td>
+			<td>No</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr class="odd">
+			<td>venue </td>
+			<td xml:lang="en" dir="ltr">text</td>
+			<td>No</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr class="even">
+			<td>comments </td>
+			<td xml:lang="en" dir="ltr">text</td>
+			<td>No</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr class="odd">
+			<td>posted_by </td>
+			<td xml:lang="en" dir="ltr">text</td>
+			<td>Yes</td>
+			<td><i>NULL</i></td>
+			<td></td>
+		</tr>
+	</table>
+</div>
+<div style="page-break-before: always;">
+	<h2>families</h2>
+	<table border="1">
+		<tr>
+			<th width="50">Field</th>
+			<th width="80">Type</th>
+			<th width="40">Null</th>
+			<th width="70">Default</th>
+			<th>Comments</th>
+		</tr>
+		<tr class="odd">
+			<td><u>family_id</u> </td>
+			<td xml:lang="en" dir="ltr">bigint(20)</td>
+			<td>No</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr class="even">
+			<td>family_name </td>
+			<td xml:lang="en" dir="ltr">varchar(32)</td>
+			<td>No</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr class="odd">
+			<td>clan_ptr </td>
+			<td xml:lang="en" dir="ltr">bigint(20)</td>
+			<td>No</td>
+			<td>0</td>
+			<td></td>
+		</tr>
+	</table>
+</div>
+<div style="page-break-before: always;">
+	<h2>hospital</h2>
+	<table border="1">
+		<tr>
+			<th width="50">Field</th>
+			<th width="80">Type</th>
+			<th width="40">Null</th>
+			<th width="70">Default</th>
+			<th>Comments</th>
+		</tr>
+		<tr class="odd">
+			<td><u>date</u> </td>
+			<td xml:lang="en" dir="ltr">date</td>
+			<td>No</td>
+			<td>0000-00-00</td>
+			<td></td>
+		</tr>
+		<tr class="even">
+			<td><u>time_of_day</u> </td>
+			<td xml:lang="en" dir="ltr">enum(&#39;Morning&#39;, &#39;Afternoon&#39;, &#39;Evening&#39;)</td>
+			<td>No</td>
+			<td>Morning</td>
+			<td></td>
+		</tr>
+		<tr class="odd">
+			<td><u>who</u> </td>
+			<td xml:lang="en" dir="ltr">enum(<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#39;Nancy&#39;, &#39;Mark&#39;, &#39;Matt&#39;, &#39;Paul&#39;, <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#39;Regie&#39;, &#39;Elaine&#39;, &#39;Clare&#39;, &#39;Julie&#39;,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#39;Laura&#39;, &#39;Teresa&#39;, &#39;Jeannette&#39;, &#39;Jen&#39;<br>
+			)</td>
+			<td>No</td>
+			<td>Nancy</td>
+			<td></td>
+		</tr>
+		<tr class="even">
+			<td>coming </td>
+			<td xml:lang="en" dir="ltr">enum(&#39;Y&#39;, &#39;N&#39;)</td>
+			<td>Yes</td>
+			<td>Y</td>
+			<td></td>
+		</tr>
+		<tr class="odd">
+			<td>comment </td>
+			<td xml:lang="en" dir="ltr">varchar(36)</td>
+			<td>Yes</td>
+			<td><i>NULL</i></td>
+			<td></td>
+		</tr>
+	</table>
+</div>
+<div style="page-break-before: always;">
+	<h2>hospital_visitors<br />
+	</h2>
+	<table border="1">
+		<tr>
+			<th width="50">Field</th>
+			<th width="80">Type</th>
+			<th width="40">Null</th>
+			<th width="70">Default</th>
+			<th>Comments</th>
+		</tr>
+		<tr class="odd">
+			<td><u>visitor_id</u> </td>
+			<td xml:lang="en" dir="ltr">bigint(20)</td>
+			<td>No</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr class="even">
+			<td>visitor_name </td>
+			<td xml:lang="en" dir="ltr">text</td>
+			<td>No</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr class="odd">
+			<td>alerts </td>
+			<td xml:lang="en" dir="ltr">enum(&#39;Y&#39;, &#39;N&#39;)</td>
+			<td>No</td>
+			<td>N</td>
+			<td></td>
+		</tr>
+	</table>
+</div>
+<div style="page-break-before: always;">
+	<h2>members</h2>
+	<table border="1">
+		<tr>
+			<th width="50">Field</th>
+			<th width="80">Type</th>
+			<th width="40">Null</th>
+			<th width="70">Default</th>
+			<th>Comments</th>
+		</tr>
+		<tr class="odd">
+			<td><u>member_id</u> </td>
+			<td xml:lang="en" dir="ltr">bigint(20)</td>
+			<td>No</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr class="even">
+			<td>family_ptr </td>
+			<td xml:lang="en" dir="ltr">bigint(20)</td>
+			<td>No</td>
+			<td>0</td>
+			<td></td>
+		</tr>
+		<tr class="odd">
+			<td>first_name </td>
+			<td xml:lang="en" dir="ltr">varchar(20)</td>
+			<td>Yes</td>
+			<td><i>NULL</i></td>
+			<td></td>
+		</tr>
+		<tr class="even">
+			<td>last_name </td>
+			<td xml:lang="en" dir="ltr">varchar(20)</td>
+			<td>Yes</td>
+			<td><i>NULL</i></td>
+			<td></td>
+		</tr>
+		<tr class="odd">
+			<td>address </td>
+			<td xml:lang="en" dir="ltr">text</td>
+			<td>Yes</td>
+			<td><i>NULL</i></td>
+			<td></td>
+		</tr>
+		<tr class="even">
+			<td>birthday </td>
+			<td xml:lang="en" dir="ltr">date</td>
+			<td>Yes</td>
+			<td>0000-00-00</td>
+			<td></td>
+		</tr>
+		<tr class="odd">
+			<td>comments </td>
+			<td xml:lang="en" dir="ltr">text</td>
+			<td>Yes</td>
+			<td><i>NULL</i></td>
+			<td></td>
+		</tr>
+		<tr class="even">
+			<td>userid </td>
+			<td xml:lang="en" dir="ltr">varchar(16)</td>
+			<td>Yes</td>
+			<td><i>NULL</i></td>
+			<td></td>
+		</tr>
+		<tr class="odd">
+			<td>password </td>
+			<td xml:lang="en" dir="ltr">varchar(41)</td>
+			<td>No</td>
+			<td>Joseph</td>
+			<td></td>
+		</tr>
+		<tr class="even">
+			<td>bot </td>
+			<td xml:lang="en" dir="ltr">enum(&#39;Y&#39;, &#39;N&#39;)</td>
+			<td>No</td>
+			<td>N</td>
+			<td></td>
+		</tr>
+		<tr class="odd">
+			<td>edit_privilege </td>
+			<td xml:lang="en" dir="ltr">enum(&#39;self&#39;, &#39;family&#39;, &#39;clan&#39;, &#39;all&#39;)</td>
+			<td>No</td>
+			<td>self</td>
+			<td></td>
+		</tr>
+		<tr class="even">
+			<td>see_hidden </td>
+			<td xml:lang="en" dir="ltr">enum(&#39;Y&#39;, &#39;N&#39;)</td>
+			<td>No</td>
+			<td>N</td>
+			<td></td>
+		</tr>
+		<tr class="odd">
+			<td>sib </td>
+			<td xml:lang="en" dir="ltr">enum(&#39;Y&#39;, &#39;N&#39;)</td>
+			<td>No</td>
+			<td>N</td>
+			<td></td>
+		</tr>
+		<tr class="even">
+			<td>dbc </td>
+			<td xml:lang="en" dir="ltr">enum(&#39;Y&#39;, &#39;N&#39;)</td>
+			<td>No</td>
+			<td>N</td>
+			<td></td>
+		</tr>
+	</table>
+</div>
+<div style="page-break-before: always;">
+	<h2>phones</h2>
+	<table border="1">
+		<tr>
+			<th width="50">Field</th>
+			<th width="80">Type</th>
+			<th width="40">Null</th>
+			<th width="70">Default</th>
+			<th>Comments</th>
+		</tr>
+		<tr class="odd">
+			<td><u>phone_id</u> </td>
+			<td xml:lang="en" dir="ltr">bigint(20)</td>
+			<td>No</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr class="even">
+			<td>member_ptr </td>
+			<td xml:lang="en" dir="ltr">bigint(20)</td>
+			<td>No</td>
+			<td>0</td>
+			<td></td>
+		</tr>
+		<tr class="odd">
+			<td>phone </td>
+			<td xml:lang="en" dir="ltr">varchar(20)</td>
+			<td>No</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr class="even">
+			<td>phone_type </td>
+			<td xml:lang="en" dir="ltr">varchar(6)</td>
+			<td>Yes</td>
+			<td><i>NULL</i></td>
+			<td></td>
+		</tr>
+	</table>
+</div>
+<div style="page-break-before: always;">
+	<h2>visits</h2>
+	<table border="1">
+		<tr>
+			<th width="50">Field</th>
+			<th width="80">Type</th>
+			<th width="40">Null</th>
+			<th width="70">Default</th>
+			<th>Comments</th>
+		</tr>
+		<tr class="odd">
+			<td><u>visit_date</u> </td>
+			<td xml:lang="en" dir="ltr">date</td>
+			<td>No</td>
+			<td>0000-00-00</td>
+			<td></td>
+		</tr>
+		<tr class="even">
+			<td>visitor </td>
+			<td xml:lang="en" dir="ltr">text</td>
+			<td>No</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr class="odd">
+			<td>morning </td>
+			<td xml:lang="en" dir="ltr">enum(&#39;Y&#39;, &#39;N&#39;)</td>
+			<td>No</td>
+			<td>Y</td>
+			<td></td>
+		</tr>
+		<tr class="even">
+			<td>afternoon </td>
+			<td xml:lang="en" dir="ltr">enum(&#39;Y&#39;, &#39;N&#39;)</td>
+			<td>No</td>
+			<td>Y</td>
+			<td></td>
+		</tr>
+		<tr class="odd">
+			<td>evening </td>
+			<td xml:lang="en" dir="ltr">enum(&#39;Y&#39;, &#39;N&#39;)</td>
+			<td>No</td>
+			<td>Y</td>
+			<td></td>
+		</tr>
+	</table>
+</div>
+<div style="page-break-before: always;">
+	<h2>wbw</h2>
+	<table border="1">
+		<tr>
+			<th width="50">Field</th>
+			<th width="80">Type</th>
+			<th width="40">Null</th>
+			<th width="70">Default</th>
+			<th>Comments</th>
+		</tr>
+		<tr class="odd">
+			<td><u>event_ptr</u> </td>
+			<td xml:lang="en" dir="ltr">bigint(20)</td>
+			<td>No</td>
+			<td>0</td>
+			<td></td>
+		</tr>
+		<tr class="even">
+			<td><u>member_ptr</u> </td>
+			<td xml:lang="en" dir="ltr">bigint(20)</td>
+			<td>No</td>
+			<td>0</td>
+			<td></td>
+		</tr>
+		<tr class="odd">
+			<td>coming </td>
+			<td xml:lang="en" dir="ltr">enum(&#39;Yes&#39;, &#39;No&#39;)</td>
+			<td>Yes</td>
+			<td><i>NULL</i></td>
+			<td></td>
+		</tr>
+		<tr class="even">
+			<td>bringing </td>
+			<td xml:lang="en" dir="ltr">text</td>
+			<td>Yes</td>
+			<td><i>NULL</i></td>
+			<td></td>
+		</tr>
+		<tr class="odd">
+			<td>comments </td>
+			<td xml:lang="en" dir="ltr">text</td>
+			<td>Yes</td>
+			<td><i>NULL</i></td>
+			<td></td>
+		</tr>
+	</table>
+</div>
+<div style="page-break-before: always;">
+	<h2>wccw_availability</h2>
+	<table border="1">
+		<tr>
+			<th width="50">Field</th>
+			<th width="80">Type</th>
+			<th width="40">Null</th>
+			<th width="70">Default</th>
+			<th>Comments</th>
+		</tr>
+		<tr class="odd">
+			<td><u>invitee_ptr</u> </td>
+			<td xml:lang="en" dir="ltr">bigint(20)</td>
+			<td>No</td>
+			<td>0</td>
+			<td></td>
+		</tr>
+		<tr class="even">
+			<td><u>date_ptr</u> </td>
+			<td xml:lang="en" dir="ltr">bigint(20)</td>
+			<td>No</td>
+			<td>0</td>
+			<td></td>
+		</tr>
+		<tr class="odd">
+			<td>availability </td>
+			<td xml:lang="en" dir="ltr">enum(&#39;Y&#39;, &#39;N&#39;, &#39;M&#39;, &#39;?&#39;)</td>
+			<td>No</td>
+			<td>?</td>
+			<td></td>
+		</tr>
+	</table>
+</div>
+<div style="page-break-before: always;">
+	<h2>wccw_dates</h2>
+	<table border="1">
+		<tr>
+			<th width="50">Field</th>
+			<th width="80">Type</th>
+			<th width="40">Null</th>
+			<th width="70">Default</th>
+			<th>Comments</th>
+		</tr>
+		<tr class="odd">
+			<td><u>date_id</u> </td>
+			<td xml:lang="en" dir="ltr">bigint(20)</td>
+			<td>No</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr class="even">
+			<td>event_ptr </td>
+			<td xml:lang="en" dir="ltr">bigint(20)</td>
+			<td>No</td>
+			<td>0</td>
+			<td></td>
+		</tr>
+		<tr class="odd">
+			<td>date </td>
+			<td xml:lang="en" dir="ltr">date</td>
+			<td>No</td>
+			<td>0000-00-00</td>
+			<td></td>
+		</tr>
+		<tr class="even">
+			<td>score </td>
+			<td xml:lang="en" dir="ltr">int(11)</td>
+			<td>Yes</td>
+			<td><i>NULL</i></td>
+			<td></td>
+		</tr>
+	</table>
+</div>
+<div style="page-break-before: always;">
+	<h2>wccw_events</h2>
+	<table border="1">
+		<tr>
+			<th width="50">Field</th>
+			<th width="80">Type</th>
+			<th width="40">Null</th>
+			<th width="70">Default</th>
+			<th>Comments</th>
+		</tr>
+		<tr class="odd">
+			<td><u>event_id</u> </td>
+			<td xml:lang="en" dir="ltr">bigint(20)</td>
+			<td>No</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr class="even">
+			<td>description </td>
+			<td xml:lang="en" dir="ltr">text</td>
+			<td>No</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr class="odd">
+			<td>organizer_ptr </td>
+			<td xml:lang="en" dir="ltr">bigint(20)</td>
+			<td>No</td>
+			<td>0</td>
+			<td></td>
+		</tr>
+		<tr class="even">
+			<td>private </td>
+			<td xml:lang="en" dir="ltr">enum(&#39;Y&#39;, &#39;N&#39;)</td>
+			<td>No</td>
+			<td>N</td>
+			<td></td>
+		</tr>
+	</table>
+</div>
+<div style="page-break-before: always;">
+	<h2>wccw_invitees</h2>
+	<table border="1">
+		<tr>
+			<th width="50">Field</th>
+			<th width="80">Type</th>
+			<th width="40">Null</th>
+			<th width="70">Default</th>
+			<th>Comments</th>
+		</tr>
+		<tr class="odd">
+			<td><u>event_ptr</u> </td>
+			<td xml:lang="en" dir="ltr">bigint(20)</td>
+			<td>No</td>
+			<td>0</td>
+			<td></td>
+		</tr>
+		<tr class="even">
+			<td><u>member_ptr</u> </td>
+			<td xml:lang="en" dir="ltr">bigint(20)</td>
+			<td>No</td>
+			<td>0</td>
+			<td></td>
+		</tr>
+		<tr class="odd">
+			<td>comments </td>
+			<td xml:lang="en" dir="ltr">varchar(120)</td>
+			<td>Yes</td>
+			<td><i>NULL</i></td>
+			<td></td>
+		</tr>
+	</table>
+</div>
+
+</body>
+
+</html>

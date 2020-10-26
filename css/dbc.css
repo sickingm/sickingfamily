@@ -1,0 +1,191 @@
+/********************************************************
+  
+    GRID Section  td
+    
+********************************************************/
+
+/*
+    Divide the DBC minutes page into three sections like this:
+    
+    +-----------+-------------+
+    |           |             |       
+    |  dbc-mtg  | dbc-minutes |   
+    |           |             |  
+    +-----------+             |     
+    |           |             |
+    | dbc-index |             |
+    |           |             |
+    |-----------+-------------+
+*/
+
+#dbc-index {
+    grid-area: index;
+}
+
+#dbc-minutes {
+    grid-area: minutes;
+    min-height: 10em;
+    max-height: 1fr;
+    overflow: auto;
+    text-align: center;
+    max-width: 70em;
+    width: 80%;
+    margin: 0 auto;
+    background: transparent;
+}
+
+#dbc-mtg {
+    grid-area: mtg;
+    overflow: auto;
+}
+
+#dbc-page {
+    display: grid;
+    grid-template-columns: 13em 1fr;
+    grid-template-rows: 11em 1fr;
+    grid-template-areas:
+        "mtg   minutes"
+        "index minutes";
+    grid-column-gap: 2em;
+}
+
+/********************************************************
+    dbc-mtg-info Section 
+********************************************************/
+
+table {
+    color: #336633;
+    font-size: 1em;
+    background-color: white;
+    font-weight: bold;
+    border-collapse: collapse;
+}
+
+tr.dbc-mtg-info td:nth-of-type(1) {
+    /* labels are right justified */
+    text-align: right;
+    padding: 0;
+}
+
+tr.dbc-mtg-info td:nth-of-type(2) {
+    /* values are left justified */
+    text-align: left;
+    padding: 0;
+}
+
+/********************************************************
+    dbc-index Section 
+********************************************************/
+div#dbc-index-list {
+    text-align: left;
+    font-weight: bold;
+    line-height: 1.4em;
+    margin-left: 0.5em;
+}
+
+/********************************************************
+    dbc-minutes Section 
+********************************************************/
+.ed {
+    color: #800000;
+    font-style: italic;
+    font-size: .75em;
+    font-weight: bold
+}
+
+.minutes {
+    text-indent: .3in;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 3px;
+    margin-bottom: 9px;
+}
+
+.signature {
+    text-align: right;
+}
+
+
+/********************************************************
+    dbc-notes Section 
+********************************************************/
+#dbc-notes {
+    text-align: left;
+}
+
+table#dbc-credits {
+    margin: 0 auto;
+    background: transparent;
+}
+
+.dbc-heading {
+    text-align: center;
+}
+
+/* Select the first td (on the left) and right justify it */
+table#dbc-credits tr#dbc-heading td:nth-of-type(1) {
+    font-weight: bold;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Select the first td (on the left) and right justifies it */
+table#dbc-credits tr td:nth-of-type(1) {
+    vertical-align: top;
+    font-weight: bold;
+    text-align: right
+}
+
+/* Select the second td (on the right) and left justifies it */
+table#dbc-credits tr td:nth-of-type(2) {
+    vertical-align: top;
+    font-weight: normal;
+    text-align: left
+}
+
+div.dbc-contents {
+    text-align: left;
+}
+
+div#dbc-notes p {
+    display: list-item;
+    /* This has to be "list-item"                                               */
+    list-style-type: disc;
+    /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+    list-style-position: inside;
+    text-indent: -1em;
+    padding-left: 2em;
+    margin-bottom: 0.5em;
+    font-weight: normal;
+}
+
+h2 {
+    padding-top: 1em;
+    padding-bottom: 0;
+}
+
+ul,
+ul * {
+    text-align: left;
+}
+
+ul#topics li {
+    display: list-item;
+    /* This has to be "list-item"                                               */
+    list-style-type: disc;
+    /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+    padding-left: 1em;
+    padding-bottom: .5em;
+    list-style-position: inside;
+    font-weight: normal;
+}
+
+
+.guru {
+    font-style: italic;
+    font-weight: bold;
+    text-indent: 0;
+    text-align: justify;
+    word-spacing: 0;
+    margin: 10px 60px;
+}

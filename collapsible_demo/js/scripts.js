@@ -1,0 +1,14 @@
+$( document ).ready(function() {
+    
+/////////////////////////////////////////////////////////////////
+// PUT CUSTOM JQUERY CODE HERE
+
+ 
+$('#first').collapsible('accordion-open', {contentOpen: 1});
+$('#index').collapsible('accordion');
+
+
+
+/////////////////////////////////////////////////////////////////
+ 
+});

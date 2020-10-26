@@ -1,0 +1,307 @@
+/* 
+
+Master CSS file
+public_html/sickingfamily_test/css/master.css
+
+ */
+
+@import url(https://www.w3schools.com/w3css/4/w3.css);
+
+/**************************************************  B O D Y   */
+body {
+	color: black;
+	font-size: 1em;
+	font-family: arial, sans-serif;
+	font-weight: normal;
+	background: url('../images/sickingfamily.jpg') fixed;
+	background: magenta;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.centered {
+	text-align: center !important;
+}
+
+/* Use the following to center divs on a page */
+        .center-child-divs{
+            text-align:center;
+        }
+        .center-child-divs>div{
+            display: inline-block;
+        }
+
+
+.inactive,
+.inactive>*{
+	background-color:lightyellow;
+	padding: 0;
+	margin: 0;
+}
+
+#main {
+	border: 1px solid #000;
+}
+
+.center-div {
+	text-align: center;
+}
+
+.bottom-data {
+	text-align: center;
+	border: 0;
+	font-weight: 700;
+}
+
+.left-data {
+	text-align: right;
+	border: 0px;
+	vertical-align: top;
+	color: #0000FF;
+	font-weight: 700;
+}
+
+.right-data {
+	text-align: left;
+	border: 0;
+	vertical-align: top;
+	color: #0000FF;
+	font-weight: 700;
+}
+
+h1,
+h2,
+h3 { font-weight: bold;}
+
+h1 { font-size: 2em !important; }
+
+h2 {font-size: 1.5em;}
+
+h3 {font-size: 1.3em;}
+
+/**************************************************  L I N K S   &   R E F E R E N C E S   */
+ a {font-size: 1em;}
+
+a:link {color: #0000FF;}
+
+a:visited { color: purple; }
+
+a:hover {
+	color: #FF0000;
+	text-decoration: none
+}
+a:active {color: #006600;}
+
+/************************************************** T A B L E S */
+
+table { background: transparent;}
+
+table, table * {
+	border-collapse: collapse;
+}
+
+th {		
+	background-color: tan;
+	color: black;
+	border: solid 1pt;
+	border-color: black;
+	text-align: center;
+}
+
+/* formats for row-based tables */
+table.rowtable th,
+th.rowtable,
+table.row_header_right th,
+th.row_header_right{
+	vertical-align: top;
+	text-align: right !important;
+}
+
+table.row_header_left th,
+th.row_header_left{
+	vertical-align: top;
+	text-align: left !important;
+}
+
+/* formats for column-based tables */
+table.coltable th,
+th.coltable,
+table.col_header_right th,
+th.col_header_right {
+	vertical-align: bottom;
+	text-align: right;
+}
+
+table.col_header_left th,
+th.col_header_left {
+	vertical-align: bottom;
+	text-align: left;
+}
+
+table.col_header_center th,
+th.col_header_center {
+	vertical-align: bottom;
+	text-align: center;
+}
+
+
+/*********************************************/
+
+
+caption {
+	font-weight: 700;
+	text-align: center;
+}
+
+th {
+	font-weight: bold;
+	font-style: normal;
+	font-family: Arial, sans-serif;
+	color: black;
+}
+
+td {
+	background-color: white;
+}
+table.subtable {
+	margin-top: 0.4em;
+	margin-left: 0.4em;
+}
+
+table.subtable th {
+	font-size: small;
+	background-color: khaki;
+	color: maroon;
+	padding: 0 1px 0 2px;
+	border-color: maroon;
+}
+
+table.subtable td {
+	font-size: small;
+	line-height: 100%;
+}
+
+/************************************************** F O R M S */
+input,
+textarea {
+	border: 2px inset white;
+	margin: 0 auto;
+	padding: 0px 2px 0px 2px;
+}
+input[type=text],
+input[type=button],
+input[type=reset],
+input[type=submit] {
+	border: 2px solid lightgray;
+	margin: 0 auto;
+	padding: 0px 2px 0px 2px;
+}
+
+textarea,
+select {
+	background-color: #FFFFFA;
+	font-family: arial, "ms sans serif";
+	font-weight: normal;
+	font-size: 1em;
+	color: black;
+}
+/**************************************************   A U T H O R I Z A T I O N   F O R M S */
+#auth-form {
+	font-size: 1em;
+}
+
+#auth-form table {
+	background: url('../images/sickingfamily.jpg') fixed;
+	border: none;
+	margin: 0 auto;
+}
+
+#auth-form caption {
+	background: url('../images/sickingfamily.jpg') fixed;
+	font-size: 1.2em;
+	font-style: italic;
+	text-align: left;
+}
+#auth-form tr {
+	background: transparent;
+	border: none;
+	text-align: left;
+}
+
+#auth-form th {
+	background: transparent;
+	border: none;
+	color: black;
+	text-align: right;
+	white-space: nowrap;
+}
+
+#auth-form td {
+	background: transparent;
+	border: none;
+	text-align: left;
+}
+
+#auth-form form {
+	border: 7px outset white;
+	margin: 1em auto;
+	width: 18em;
+}
+
+.user-id,
+.user-name {
+	font-weight: bold;
+}
+
+.user-id {
+	color: red;
+}
+
+.user-name {
+	color: blue;
+}
+/**************************************************  E R R O R   H A N D L E R  */
+.error-msg {
+	color: red;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.message {
+	/*for informational non-error alerts*/
+	color: black;
+	font-weight: normal;
+	font-size: 1.1em;
+}
+
+.success {
+	/*for non-error alerts indicating successful execution of some process*/
+	color: #007700;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+.info {
+	/* For benign but more imprtant mesages */
+	font-style: italic;
+	font-size: larger;
+}
+
+.msgbox {
+	max-width:5in
+}
+
+.message,
+.error-font,
+.error-msg,
+.info,
+.success {
+	display: inline-block;
+	list-style: none;
+	border: 5px outset white;
+	padding: 0.3em;
+	margin-left: auto;
+	margin-right: auto;
+	background: ghostwhite;
+	text-align: left;
+}

@@ -1,0 +1,109 @@
+/********************************************************
+ 
+    GRID Section  td
+    
+********************************************************/
+
+/*
+  Divide the User Admin minutes page into three sections like this:
+  
+  +-------------------------------------+
+  |                                     |       
+  |          user-admin-header          |   
+  |                                     |  
+  +-----------------+-------------------+     
+  |                 |                   |
+  | user-admin-menu | user-admin-action |
+  |                 |                   |
+  |-----------------+-------------------+
+*/
+
+#user-admin-page {
+    display:grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 
+    	"header header"
+    	"menu   action";
+    grid-column-gap: 1em;
+}
+
+#user-admin-header {
+    grid-area: header;
+    overflow: auto;
+}
+
+#user-admin-menu {
+    grid-area: menu; 
+    text-align: left;
+    padding: .75em;
+    font-weight: bold;
+}
+
+#user-admin-action {
+    grid-area: action;
+    text-align: left;
+    padding: .75em;
+    justify-content: left;
+    max-width:55em;
+}
+
+#user-admin-action > ol {
+    list-style-position: inside;
+    padding-left: 1em;
+}
+
+#user-admin-menu > *{
+    display: list-item;                                      
+    list-style-type: square;
+    list-style-position: inside;
+    color:   #6e2c00 ;
+}
+
+#user-admin-menu > span.user-id {
+    display: inline-block;
+}
+
+.dimmed {
+	font-size:14px;
+	color: #AAAAAA;
+    font-weight: normal;
+}
+
+table {
+    border:1px solid black;
+}
+
+#user-info {
+    display:initial;
+}
+
+fieldset {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+
+}
+.fieldset-admin {
+    background-color: #eeeeee;
+}
+
+.fieldset-clan {
+    background-color: #ffdddd
+}
+
+.fieldset-family {
+    background-color: #ddeeff
+}
+
+legend {
+    padding-left: 3px;
+    color: black;
+}
+
+.ops,
+.ops a {
+    color:black;
+    font-weight: bold
+}

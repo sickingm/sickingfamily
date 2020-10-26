@@ -1,0 +1,31 @@
+@import "event_common.css";
+
+#event-page-header {  /* formats the title on to of the page*/
+    font-size: 2em;
+    text-decoration: underline;
+    font-weight: bold;
+    color: #000080;
+}
+
+.center,
+.center * {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centered {
+    text-align:center;
+}
+
+.event-gray {
+	color: #000000;
+	font-style: normal;
+	font-family: Arial, sans-serif;
+	vertical-align: top; 
+    border-width: 1pt;
+}
+
+table, tr, th, td {
+	border: 1pt solid black;
+}
